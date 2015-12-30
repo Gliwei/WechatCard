@@ -1,0 +1,5 @@
+{
+	"card_id": "pmKOyjtx3Qt2Fhy2w1sCuOF1qHFM",
+	"increase_stock_value": 5,
+	"reduce_stock_value": 0
+}

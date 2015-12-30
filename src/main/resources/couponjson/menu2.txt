@@ -1,0 +1,48 @@
+{
+	"button": [{
+		"name": "逛",
+		"sub_button": [{
+			"type": "view",
+			"name": "进入商城",
+			"url": "http://m.yougou.com/touch"
+		}, {
+			"type": "view",
+			"name": "下载APP",
+			"url": "http://m.yougou.com/touch/agent"
+		}]
+	}, {
+		"name": "嗨",
+		"sub_button": [{
+			"type": "scancode_push",
+			"name": "领券A",
+			"url": "http://mp.weixin.qq.com/bizmall/cardshelf?shelf_id=1&showwxpaytitle=1&biz=MjM5NDA3MTk2MA==&t=cardticket/shelf_list&scene=1000007#wechat_redirect"
+		},{
+			"type": "view",
+			"name": "玩游戏得奖",
+			"url": "http://www.91qutui.com/shuangdan/index.php"
+		},{
+			"type": "view",
+			"name": "精彩回顾",
+			"url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MjM5NDA3MTk2MA==#wechat_webview_type=1&wechat_redirect"
+		}, {
+			"type": "view",
+			"name": "优惠礼券",
+			"url": "http://m.yougou.com/touch/mc.sc?requestMode=touch"
+		}, {
+			"type": "view",
+			"name": "我的优购",
+			"url": "http://m.yougou.com/touch/toLogin.sc?redirectURL=http%3A%2F%2Fm.yougou.com%3A80%2Ftouch%2Fmy%2FmyIndex.sc"
+		}]
+	}, {
+		"name": "聊",
+		"sub_button": [{
+			"type": "click",
+			"name": "在线客服",
+			"key": "CUSTOMSERVICE"
+		}, {
+			"type": "view",
+			"name": "常见疑问",
+			"url": "http://m.yougou.com/touch/help/index.sc"
+		}]
+	}]
+}

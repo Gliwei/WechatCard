@@ -1,0 +1,12 @@
+{  
+   "banner":"http://pic.yougou.com/pics/mobile/homepage/2015/12/1450688669579.jpg",
+   "page_title": "优购优惠大派送",
+   "can_share": true,
+   "scene": "SCENE_MENU",
+   "card_list": [
+       {
+           "card_id": "pmKOyjkQ3wRCRfEKtPEJR3F95NnY",
+           "thumb_url": "http://pic.yougou.com/pics/mobile/homepage/2015/12/1450684823391.jpg"
+       }
+   ]
+}

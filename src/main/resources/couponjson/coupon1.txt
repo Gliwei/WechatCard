@@ -1,0 +1,36 @@
+{
+    "card":{
+        "card_type": "GENERAL_COUPON", 
+        "general_coupon":{
+            "base_info":{
+                "bind_openid": false, 
+                "brand_name": "优购", 
+                "can_give_friend": true, 
+                "can_share": true, 
+                "code_type": "CODE_TYPE_TEXT", 
+                "color": "Color010", 
+                "custom_url": "http://m.yougou.com", 
+                "custom_url_name": "优购商城", 
+                "custom_url_sub_title": "去逛逛", 
+                "date_info": {
+                    "fixed_term": 30, 
+                    "type": "DATE_TYPE_FIX_TERM"
+                }, 
+                "description": "优购测试优惠券", 
+                "get_limit": 1, 
+                "logo_url": "http://mmbiz.qpic.cn/mmbiz/C3OGEYOHZgzLbcJEhwN40OwHczjIvcprAa2bnWX1bMhWUtnutdvicDutDhcVo7PUoRMFictUj7d9Qo7MrQiagOE5w/0", 
+                "notice": "登录m.yougou.com输入卡券编码核销", 
+                "promotion_url": "http://m.yougou.com", 
+                "promotion_url_name": "更多优惠", 
+                "service_phone": "020-88888888", 
+                "sku": {
+                    "quantity": 0
+                }, 
+                "sub_title": "副标题", 
+                "title": "标题", 
+                "use_custom_code": true
+            }, 
+            "default_detail": "DefaultDetail"
+        }
+    }
+}

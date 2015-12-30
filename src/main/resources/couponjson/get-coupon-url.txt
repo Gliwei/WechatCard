@@ -1,0 +1,10 @@
+{
+    "action_name": "QR_CARD",
+	"action_info": {
+		"card": {
+			"card_id": "pmKOyjtx3Qt2Fhy2w1sCuOF1qHFM",
+			"is_unique_code": false ,
+			"outer_id" : 1
+		}
+	}
+}
