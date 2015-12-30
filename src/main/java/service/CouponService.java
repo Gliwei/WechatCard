@@ -1,10 +1,8 @@
 package service;
 
-import java.io.File;
 import java.util.List;
 
 import utils.HttpUtil;
-import utils.PropertiesUtil;
 import vo.Token;
 import config.Config;
 
@@ -62,13 +60,21 @@ public class CouponService {
 		return json;
 	}
 	
-	public static String searchImportCodeNum(String json,Token token){
+	public static String searchImportCodeNum(String id,Token token){
 		String URL = Config.join(Config.SEARCH_IMPORT_CODE_NUM, token);
+		String json = "{"+ "\"card_id\": \""+id+"\""+"}";
 		return HttpUtil.post(URL, json);
 	}
 	
-	public static String modifyStock(String json, Token token){
+	public static String modifyStock(String id, int increaseStockValue, Token token){
 		String URL = Config.join(Config.MODIFY_STOCK, token);
+		
+		String json = "{"+
+				"\"card_id\": \""+id+"\","+
+				"\"increase_stock_value\": "+increaseStockValue+","+
+				"\"reduce_stock_value\": 0"+
+			"}";
+		
 		return HttpUtil.post(URL, json);
 	}
 	
@@ -91,8 +97,18 @@ public class CouponService {
 		return HttpUtil.post(URL, json);
 	}
 	
-	public static String getCouponUrl(String json, Token token){
+	public static String getCouponUrl(String id, Token token){
 		String URL = Config.join(Config.GET_COUPON_URL, token);
+		String json = "{"+
+			    "\"action_name\": \"QR_CARD\","+
+				"\"action_info\": {"+
+					"\"card\": {"+
+						"\"card_id\": \""+id+"\","+
+						"\"is_unique_code\": false ,"+
+						"\"outer_id\" : 1"+
+					"}"+
+				"}"+
+			"}";
 		return HttpUtil.post(URL, json);
 	}
 	
